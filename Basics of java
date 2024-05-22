@@ -1,1 +1,44 @@
+--> Features of Java
+Simple and Easy to Learn.
+Object-Oriented Programming.
+Platform Independence.
+Automatic Memory Management.
+Security.
+Rich API.
+Multithreading.
+High Performance.
 
+--> Working Of Java
+The basic flow is that it is first compiled from source code into what we call bytecode. 
+Then, it is interpreted to machine code using an interpreter named JVM, which stands for Java Virtual Machine. 
+This interpretation happens at runtime, so you can refer to Java as an interpreted language and also a compiled language.
+
+--> JDK,JVM,JRE
+----->JDK
+Java Development Kit (JDK) is a software development environment used for developing Java applications and applets. 
+It includes the Java Runtime Environment (JRE), an interpreter/loader (Java), a compiler (javac), an archiver (jar),
+a documentation generator (Javadoc), and other tools needed in Java development. 
+----->JVM
+JVM (Java Virtual Machine) is an abstract machine that enables your computer to run a Java program.
+When you run the Java program, Java compiler first compiles your Java code to bytecode. 
+Then, the JVM translates bytecode into native machine code (set of instructions that a computer's CPU executes directly).
+Java is a platform-independent language. It's because when you write Java code, it's ultimately written for JVM but not your physical machine (computer). 
+Since JVM executes the Java bytecode which is platform-independent, Java is platform-independent.
+----->JRE
+JRE (Java Runtime Environment) is a software package that provides Java class libraries, Java Virtual Machine (JVM), and other components that are 
+required to run Java applications.
+JRE is the superset of JVM.
+----->JIT
+The JIT compiler helps improve the performance of Java programs by compiling bytecodes into native machine code at run time. 
+The JIT compiler is enabled by default. When a method has been compiled, the JVM calls the compiled code of that method directly 
+instead of interpreting it.
+
+--> Why JAVA is Secured Language?
+In a world where software security is of paramount importance, Java stands out as one of the most secure programming languages. 
+Its platform independence, memory management, strong typing, exception handling, security manager, and active community support 
+all contribute to its reputation for security.
+
+--> Why JAVA is Platform Independent? 
+Java is platform-independent because it is compiled to a bytecode that can be run on any device that has a Java Virtual Machine (JVM). 
+This means that you can write a Java program on one platform (such as Windows) and then run it on a different platform (such as macOS or Linux) 
+without making any changes to the code.
